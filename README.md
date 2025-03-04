@@ -20,21 +20,24 @@ SafeDrive is a deep learning-based application that detects potholes and speed b
 1. *Upload an Image or Video* via the Streamlit interface.  
 2. The *YOLO model* processes the input to detect potholes and speed breakers.  
 3. Detected objects are marked with *bounding boxes and confidence scores*.  
-4. For videos, the processed output is saved, and a *download link* is provided.  
+4. For videos, the processed output is saved, and a *download link* is provided.
 
 ## 🔧 Installation & Usage  
 1. Clone this repository:  
-   bash
-   git clone https://github.com/your-repo/safedrive.git
-   cd safedrive
+  ```bash
+git clone https://github.com/your-repo/safedrive.git
+cd safedrive
+```
    
 2. Install dependencies:  
-   bash
-   pip install streamlit opencv-python ultralytics pillow numpy
+   ```bash
+pip install streamlit opencv-python ultralytics pillow numpy
+```
    
 3. Run the Streamlit app:  
-   bash
-   streamlit run app.py
+  ```bash
+streamlit run app.py
+```
    
 4. Upload an image or video and get real-time pothole and speed breaker detection.  
 
